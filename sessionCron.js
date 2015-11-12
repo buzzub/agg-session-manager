@@ -1,5 +1,5 @@
 var CronJob = require('cron').CronJob;
-var sessionManager = require('./sessionManager');
+var sessionManager = require('./index');
 var crons = [];
 
 // Time definitions
